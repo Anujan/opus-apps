@@ -738,7 +738,7 @@ end
 
 Builder.itemAdapter = Adapter.wrap({ side = 'bottom', direction = 'up' })
 if not Builder.itemAdapter then
-	error('A chest or ME interface must be below turtle')
+	error('test A chest or ME interface must be below turtle')
 end
 
 subDB:load()
